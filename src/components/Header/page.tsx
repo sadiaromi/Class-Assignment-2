@@ -62,7 +62,7 @@ const Header = () => {
                     Advanced Courses
                   </h1>
                   {tracks.map((val) => (
-                    <Link href={`/#/${val.id}/4`} key={val.id}>
+                    <Link href={`/#/${val.id}/`} key={val.id}>
                     <div className="py-1 px-2 text-sm text-black hover:text-main">{val.name}</div>
                     </Link>
                   ))}
